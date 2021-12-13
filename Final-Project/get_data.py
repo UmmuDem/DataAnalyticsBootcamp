@@ -7,7 +7,7 @@ import os
 import json
 import tqdm
 
-urls = pd.read_csv('coursera.csv',delimiter = ';')
+urls = pd.read_csv('courseraUrls.csv',delimiter = ';')
 url_list = list(urls['link-href'])
 
 for ix,url in enumerate(tqdm.tqdm(url_list[1264:]),start=1264):
