@@ -13,9 +13,15 @@ by [Ummuhan Demir](https://github.com/UmmuDem), December 2021
 
 [Cleaning](#cleaning)
 
-[Models used](#models-used)
+[Models used](#models-for-content-based-recommendation)
 
-[Models used](#models-used)
+[Recommender]
+
+[Visualisations]
+
+[Future Work](#future-work)
+
+
 
 
 # Project Description
@@ -44,7 +50,12 @@ I tried to understand the data better in Python column by column, checked what I
 
 - To be able to apply natural language processing, I created text corpus first by concataneting columns: name, level, category, subcategory, about and syllabus.
 - I did some more cleaning, like removing numbers, special characters, punctuations and stopwords(I also added extra stopwords to nltk.stopwords) from the corpus, lemmatize the corpus.
-- I used both [tfidf](https://scikitlearn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html#:~:text=The%20formula%20that%20is%20used,document%20frequency%20of%20t%3B%20the) and [countvectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html?highlight=countvectorizer#sklearn.feature_extraction.text.CountVectorizer) as features extractor to compare the recomemdations. For these vectorizers, I applied [pairwise cosine similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html?highlight=cosine%20similarity#sklearn.metrics.pairwise.cosine_similarity) to be able to recommend the courses with the most similar content 
+- I used both [tfidf](https://scikitlearn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html#:~:text=The%20formula%20that%20is%20used,document%20frequency%20of%20t%3B%20the) and [countvectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html?highlight=countvectorizer#sklearn.feature_extraction.text.CountVectorizer) as features extractor to compare the recomemdations. For these vectorizers, I applied [pairwise cosine similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html?highlight=cosine%20similarity#sklearn.metrics.pairwise.cosine_similarity) to be able to recommend the courses with the most similar content.
+<img width="400" alt="Screenshot 2021-12-15 at 17 37 33" src="https://user-images.githubusercontent.com/55329025/146229014-0647003a-52c5-474c-a25d-d88cbd94d4aa.png">
+<img width="400" alt="Screenshot 2021-12-15 at 17 38 42" src="https://user-images.githubusercontent.com/55329025/146229034-a825d6ec-d9bd-4ccd-99a5-99f6782b58fa.png">
+
+- I also used KNN after I vectorized corpus by using tfidf to get the nearest neighbors of the given input by using Euclidean distance. Actually, KNN did the worst job, 
+- I decided to continue with the CountVectorizer because it gives courses more related with the given input(at least I thought it so).
 
 
 
