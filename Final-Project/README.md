@@ -36,7 +36,7 @@ At the end, my data contains 911 rows with columns: course name, instructor, rat
 The usual data cleaning procedures were applied in [this notebook](link koy). I dropped nulls, cleaned some entries which were numeric by nature but came with description, eg. ratings came like '4.8stars'. 
 
 # Exploration
-I tried to understand the data better in Python by vizualizating it.
+I tried to understand the data better in Python column by columns, checked what I have in them. I got some bar graph to see the distribution of the courses.
 <img width="930" alt="Screenshot 2021-12-15 at 15 48 27" src="https://user-images.githubusercontent.com/55329025/146208197-da753449-183f-45a5-857c-d8f14b582e82.png">
 
 Conclusion
