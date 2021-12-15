@@ -43,7 +43,7 @@ I tried to understand the data better in Python column by column, checked what I
 # Models for Content Based Recommendation
 
 - To be able to apply natural language processing, I created text corpus first by concataneting columns: name, category, subcategory, about and syllabus.
-- I used both [tfidf(https://scikitlearn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html#:~:text=The%20formula%20that%20is%20used,document%20frequency%20of%20t%3B%20the) and countvectorizer as features extractor to compare the recomemdations.
+- I used both [tfidf](https://scikitlearn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html#:~:text=The%20formula%20that%20is%20used,document%20frequency%20of%20t%3B%20the) and countvectorizer as features extractor to compare the recomemdations.
 
 
 
