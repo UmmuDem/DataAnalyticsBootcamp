@@ -13,11 +13,11 @@ by [Ummuhan Demir](https://github.com/UmmuDem), December 2021
 
 [Cleaning](#cleaning)
 
-[Models used](#models-for-content-based-recommendation)
+[Models for Content Based Recommender](#models-for-content-based-recommendation)
 
-[Recommender]
+[Recommender](#recommender)
 
-[Visualisations]
+[Visualisations](#visualisations)
 
 [Future Work](#future-work)
 
@@ -60,11 +60,13 @@ I tried to understand the data better in Python column by column, checked what I
 
 - More or less, they gave the same courses but I didn't like the ones with the global warming course. So I decided to continue with the CountVectorizer because it gives courses more related with the given input(at least I thought it so).
 
+# Recommender
 
 
+# Visualisations
 
-Conclusion
-Future Work
+
+# Future Work
 
 Tools
 Links
