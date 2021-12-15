@@ -26,9 +26,11 @@ In this project I aimed to build a recommendation system for free courses in Cou
 
 # Dataset
 
-The plan was the scrape 'coursera.org' to get course urls by using only BeautifulSoup and then scrape course webpages authomatically. Somehow I couldn't manage the first part. Because of that I used **Web Scraper** which is a google chrome extension I downloaded. As in the picture, we can see it while investigating the webpage.
-
+The plan was the scrape 'coursera.org' to get course urls by using only BeautifulSoup and then scrape course webpages authomatically. Somehow I couldn't manage the first part. Because of that I used **Web Scraper** which is a google chrome extension I downloaded. As in the picture, we can see it while investigating the webpage. I used it just to get the course webpage urls.
 <img width="1388" alt="Screenshot 2021-12-15 at 15 26 34" src="https://user-images.githubusercontent.com/55329025/146204648-fb277a69-42f1-4f72-b573-806dec3b8f2a.png">
+Next I moved to python and scraped pages with the [urls](link koy) I obtained. In [this notebook], you can find code itself. I collected 1515 course data in the beginning. Then I decided to stick with the [courses in English](link koy) to avoid the noise which is created by the non-Latin alphetic languages. 
+
+At the end, my data contains 911 rows with columns: name, instructor, rating, number of rating, number of students who enrolled, category, subcategory, language(just English), syllabus, about and url of the course page.
 
 Conclusion
 Future Work
