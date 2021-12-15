@@ -30,7 +30,14 @@ The plan was the scrape 'coursera.org' to get course urls by using only Beautifu
 <img width="1388" alt="Screenshot 2021-12-15 at 15 26 34" src="https://user-images.githubusercontent.com/55329025/146204648-fb277a69-42f1-4f72-b573-806dec3b8f2a.png">
 Next I moved to python and scraped pages with the [urls](link koy) I obtained. In [this notebook], you can find code itself. I collected 1515 course data in the beginning. Then I decided to stick with the [courses in English](link koy) to avoid the noise which is created by the non-Latin alphetic languages. 
 
-At the end, my data contains 911 rows with columns: name, instructor, rating, number of rating, number of students who enrolled, category, subcategory, language(just English), syllabus, about and url of the course page.
+At the end, my data contains 911 rows with columns: course name, instructor, rating, number of rating, number of students who enrolled, category, subcategory, language(just English), syllabus, about and url of the course page.
+
+# Cleaning
+The usual data cleaning procedures were applied in [this notebook](link koy). I dropped nulls, cleaned some entries which were numeric by nature but came with description, eg. ratings came like '4.8stars'. 
+
+# Exploration
+I tried to understand the data better in Python by vizualizating it.
+<img width="930" alt="Screenshot 2021-12-15 at 15 48 27" src="https://user-images.githubusercontent.com/55329025/146208197-da753449-183f-45a5-857c-d8f14b582e82.png">
 
 Conclusion
 Future Work
