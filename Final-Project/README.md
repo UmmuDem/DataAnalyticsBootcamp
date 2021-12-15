@@ -1,4 +1,4 @@
-# Course Recommender
+# Course Recommender Prototype
 by [Ummuhan Demir](https://github.com/UmmuDem), December 2021
 
 
@@ -24,7 +24,11 @@ In daily life, all of us needs recommendations on basically everything and we sh
 
 In this project I aimed to build a recommendation system for free courses in Coursera. The pandemic has an huge effect on the education system all around the world. Students not only get sicked of online lessons but also get used to it. As I am also an online math tutor right now, time to time I have to give recommendation to students about which online course they should follow.  However, it is not possible for me to go through syllabus of every course and recommend the good match with the student's need and knowledge. That is why I wanted to create a recommendation engine which does that for me. It is, of course, just a prototype but I am going to use it to get recommendation after I complete the course that is called '[Foundations of Data Science: K-Means Clustering in Python](https://www.coursera.org/learn/data-science-k-means-clustering-python)' in Coursera. 
 
-# 
+# Dataset
+
+The plan was the scrape 'coursera.org' to get course urls by using only BeautifulSoup and then scrape course webpages authomatically. Somehow I couldn't manage the first part. Because of that I used **Web Scraper** which is a google chrome extension I downloaded. As in the picture, we can see it while investigating the webpage.
+
+<img width="1388" alt="Screenshot 2021-12-15 at 15 26 34" src="https://user-images.githubusercontent.com/55329025/146204648-fb277a69-42f1-4f72-b573-806dec3b8f2a.png">
 
 Conclusion
 Future Work
