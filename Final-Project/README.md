@@ -37,10 +37,8 @@ The usual data cleaning procedures were applied in [this notebook](link koy). I 
 
 # Exploration
 I tried to understand the data better in Python by vizualizating it.
-<img width="930" alt="Screenshot 2021-12-15 at 15 48 27" src="https://user-images.githubusercontent.com/55329025/146208197-da753449-183f-45a5-857c-d8f14b582e82.png" <img width="960" alt="Screenshot 2021-12-15 at 15 49 54" src="https://user-images.githubusercontent.com/55329025/146208782-2ffec18d-49ae-48ea-826d-4986b3d0f3c8.png">
+<img width="930" alt="Screenshot 2021-12-15 at 15 48 27" src="https://user-images.githubusercontent.com/55329025/146208197-da753449-183f-45a5-857c-d8f14b582e82.png" <img width="960" alt="Screenshot 2021-12-15 at 15 49 54" src="https://user-images.githubusercontent.com/55329025/146209160-424a3737-957a-4619-814e-746e641b5d7c.png">
 
-
-Conclusion
 Future Work
 
 Tools
