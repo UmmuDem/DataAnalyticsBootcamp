@@ -21,10 +21,9 @@ by [Ummuhan Demir](https://github.com/UmmuDem), December 2021
 
 In daily life, all of us needs recommendations on basically everything and we should not hesitate about asking it. To learn new things that we haven't heard before or have been afraid of trying, recommendation system works really great. On the other hand, somethimes we encounter with a lot of choices and we can not decide which one we should choose. Again it would be great to have 'someone' who knows us and guides us through it by his valuable recommendations based on our past experiences and knowledge. Of course, not quite possible to have that person. Soooo, let's create one. I think that as natural language processing is evolving, this kind of content-based recommendation systems will be more accurate and valuable. 
 
-In this project I aimed to build a recommendation system for free courses in Coursera. As a math teacher, time to time I have to give recommendation to students which online course they should follow. However, it is not possible for me to go through syllabus of every course and recommend the perfect match with my student's need and knowledge. That is why I wanted to create a recommendation engine which does that for me. 
+In this project I aimed to build a recommendation system for free courses in Coursera. As a math teacher, time to time I have to give recommendation to students which online course they should follow. However, it is not possible for me to go through syllabus of every course and recommend the good match with my student's need and knowledge. That is why I wanted to create a recommendation engine which does that for me. It is, of course, just a prototype but I am going to use it to get recommendation after I complete the course that is called 'Foundations of Data Science: K-Means Clustering in Python' in Coursera. 
 
-
-
+# 
 
 Conclusion
 Future Work
