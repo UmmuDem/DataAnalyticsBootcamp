@@ -42,8 +42,9 @@ I tried to understand the data better in Python column by column, checked what I
 
 # Models for Content Based Recommendation
 
-- To be able to apply natural language processing, I created text corpus first by concataneting columns: name, category, subcategory, about and syllabus.
-- I used both [tfidf](https://scikitlearn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html#:~:text=The%20formula%20that%20is%20used,document%20frequency%20of%20t%3B%20the) and countvectorizer as features extractor to compare the recomemdations.
+- To be able to apply natural language processing, I created text corpus first by concataneting columns: name, level, category, subcategory, about and syllabus.
+- I did some more cleaning, like removing numbers, special characters, punctuations and stopwords(I also added extra stopwords to nltk.stopwords) from the corpus, lemmatize the corpus.
+- I used both [tfidf](https://scikitlearn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html#:~:text=The%20formula%20that%20is%20used,document%20frequency%20of%20t%3B%20the) and [countvectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html?highlight=countvectorizer#sklearn.feature_extraction.text.CountVectorizer) as features extractor to compare the recomemdations. For these vectorizers, I applied [pairwise cosine similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html?highlight=cosine%20similarity#sklearn.metrics.pairwise.cosine_similarity) to be able to recommend the courses with the most similar content 
 
 
 
