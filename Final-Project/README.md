@@ -40,6 +40,13 @@ I tried to understand the data better in Python column by columns, checked what 
 
 <img width="800" alt="Screenshot 2021-12-15 at 15 48 27" src="https://user-images.githubusercontent.com/55329025/146208197-da753449-183f-45a5-857c-d8f14b582e82.png">
 
+# Models for Content Based Recommendation
+
+- To be able to apply natural language processing, I created text corpus first by concataneting columns: name, category, subcategory, about and syllabus. 
+
+
+
+
 Conclusion
 Future Work
 
