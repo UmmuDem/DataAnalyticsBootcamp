@@ -79,5 +79,7 @@ As a visual summary you can check my [presentation slides](https://github.com/Um
 # Future Work
 - As I mentioned above, I don't have enough courses to get better recommendations. Hence, I can collect more courses from different platforms or paid courses in Coursera.
 - I can expand the stopwords set, because the workcoluds I obtained both in python and tableau shows me that I have non-course-content related words, like exercise, practice, quiz, etc. I can analyze more and remove them.
+- I can build a pretty interface for user interaction. That seems difficult for me right now.
+
 
 
