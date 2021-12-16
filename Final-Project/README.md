@@ -1,9 +1,8 @@
 # Course Recommender Prototype
 by [Ummuhan Demir](https://github.com/UmmuDem), December 2021
 
+<img width="1019" alt="Screenshot 2021-12-16 at 22 29 30" src="https://user-images.githubusercontent.com/55329025/146452580-fa9569eb-8f9a-4137-bf28-5cc10aa5d5bd.png">
 
-
-<a href="url"><img src="https://user-images.githubusercontent.com/55329025/145736875-983db9b4-82c7-4cc7-ba88-f9b171a66774.jpeg" align="center" height="400" width="800" ></a>
 
 
 ### Table of Contents  
@@ -34,12 +33,12 @@ In this project I aimed to build a recommendation system for free courses in Cou
 
 The plan was the scrape 'coursera.org' to get course urls by using only BeautifulSoup and then scrape course webpages authomatically. Somehow I couldn't manage the first part. Because of that I used **Web Scraper** which is a google chrome extension I downloaded. As in the picture, we can see it while investigating the webpage. I used it just to get the course webpage urls.
 <img width="1388" alt="Screenshot 2021-12-15 at 15 26 34" src="https://user-images.githubusercontent.com/55329025/146204648-fb277a69-42f1-4f72-b573-806dec3b8f2a.png">
-Next I moved to python and scraped pages with the [urls](link koy) I obtained. In [this notebook], you can find code itself. I collected 1515 course data in the beginning. Then I decided to stick with the [courses in English](link koy) to avoid the noise which is created by the non-Latin alphetic languages. 
+Next I moved to python and scraped pages with the [urls](http://localhost:8888/edit/Documents/GitHub/DataAnalyticsBootcamp/Final-Project/Data/courseraUrls.csv) I obtained. In [this notebook](http://localhost:8888/notebooks/Documents/GitHub/DataAnalyticsBootcamp/Final-Project/Jupyter%20Notebooks/Coursera-Getting%20the%20Raw%20Data.ipynb), you can find code itself. I collected 1515 course data in the beginning. Then I decided to stick with the [courses in English](http://localhost:8888/edit/Documents/GitHub/DataAnalyticsBootcamp/Final-Project/Data/courses_in_english.csv) to avoid the noise which is created by the non-Latin alphabetic languages. 
 
 At the end, my data contains 911 rows with columns: course name, instructor, rating, number of rating, number of students who enrolled, category, subcategory, language(just English), syllabus, about and url of the course page.
 
 # Cleaning
-The usual data cleaning procedures were applied in [this notebook](link koy). I dropped nulls, cleaned some entries which were numeric by nature but came with description, eg. ratings came like '4.8stars'. 
+The usual data cleaning procedures were applied in [this notebook](http://localhost:8888/notebooks/Documents/GitHub/DataAnalyticsBootcamp/Final-Project/Jupyter%20Notebooks/Clean-and-Explore-the-Data.ipynb). I dropped nulls, cleaned some entries which were numeric by nature but came with description, eg. ratings came like '4.8stars'. 
 
 # Exploration
 I tried to understand the data better in Python column by column, checked what I have in them. Also, I got some bar graphs to see the distribution of the courses.
@@ -58,15 +57,24 @@ I tried to understand the data better in Python column by column, checked what I
 - I also used KNN after I vectorized corpus by using tfidf to get the nearest neighbors of the given input by using Euclidean distance. KNN gives 
 <img width="598" alt="Screenshot 2021-12-15 at 17 45 28" src="https://user-images.githubusercontent.com/55329025/146229234-a3205204-975d-4f29-9caa-a857e69c19a8.png">
 
-- More or less, they gave the same courses but I didn't like the ones with the global warming course. So I decided to continue with the CountVectorizer because it gives courses more related with the given input(at least I thought it so).
+- More or less, they gave the same courses. So I decided to continue with the CountVectorizer because it gives courses more related with the given input(at least I thought it so).
 
 # Recommender
+The obtained recommendation engines behave in two different ways:
+- In the first case: If user is new in Coursera, user writes keywords in the input panel. It considers those keywords as a corpus and vectorize it, then get the most similar five courses to recommend. I added the link of the courses also, so that user can reach the course immediately.
+- In the second case: If user has already completed a course in Coursera, user is supposed to write the name of that course. The recommender finds the corpus of that course and get recommendations with respect to that. 
+
 
 
 # Visualisations
-
+- I prepared a Tableau dashboard to visualise what I have at the end. You can find it [here](https://github.com/UmmuDem/DataAnalyticsBootcamp/tree/main/Final-Project/Tableau).
+- I have a pie chart to show the course distribution by category to be able to understand sometimes I don't get any good recommendation for a keyword. That is basically because I don't have any similar course for that. 
+- First, we choose a category, the table on the right is filtered out by an action. 
+- Then, we choose a course which we have completed from that table. The table on the right shows the recommended 10 courses. 
+- I also added the 'about the course' section as a tooltip on the scores. 
 
 # Future Work
+- As I mentioned above, I don't have enough courses to get better recommendations. Hence, I can collect more courses from different platforms or paid courses in Coursera.
+- I can expand the stopwords set, because the workcoluds I obtained both in python and tableau shows me that I have non-course-content related words, like exercise, practice, quiz, etc. I can analyze more and remove them.
 
-Tools
-Links
+
