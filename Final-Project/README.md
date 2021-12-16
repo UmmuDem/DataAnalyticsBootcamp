@@ -63,7 +63,8 @@ I tried to understand the data better in Python column by column, checked what I
 # Recommender
 The obtained recommendation engines behave in two different ways:
 - In the first case: If user is new in Coursera, user writes keywords in the input panel. It considers those keywords as a corpus and vectorize it, then get the most similar five courses to recommend. I added the link of the courses also, so that user can reach the course immediately.
-- In the second case: If user has already completed a course It looks as follows:
+- In the second case: If user has already completed a course in Coursera, user is supposed to write the name of that course. The recommender finds the corpus of that course and get recommendations with respect to that. 
+- In [this notebook](https://github.com/UmmuDem/DataAnalyticsBootcamp/blob/main/Final-Project/Jupyter%20Notebooks/OnlyRecommender.ipynb) you can find the most basic user interface. It looks as follows:
 <img width="1019" alt="Screenshot 2021-12-16 at 22 29 30" src="https://user-images.githubusercontent.com/55329025/146451801-20bd238a-645c-4346-8b1e-a1fd09ecc512.png">
 
 
