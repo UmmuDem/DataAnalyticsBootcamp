@@ -3,8 +3,6 @@ by [Ummuhan Demir](https://github.com/UmmuDem), December 2021
 
 
 
-<a href="url"><img src="https://user-images.githubusercontent.com/55329025/145736875-983db9b4-82c7-4cc7-ba88-f9b171a66774.jpeg" align="center" height="400" width="800" ></a>
-
 
 ### Table of Contents  
 [Project Description](#project-description)
@@ -58,7 +56,7 @@ I tried to understand the data better in Python column by column, checked what I
 - I also used KNN after I vectorized corpus by using tfidf to get the nearest neighbors of the given input by using Euclidean distance. KNN gives 
 <img width="598" alt="Screenshot 2021-12-15 at 17 45 28" src="https://user-images.githubusercontent.com/55329025/146229234-a3205204-975d-4f29-9caa-a857e69c19a8.png">
 
-- More or less, they gave the same courses but I didn't like the ones with the global warming course. So I decided to continue with the CountVectorizer because it gives courses more related with the given input(at least I thought it so).
+- More or less, they gave the same courses. So I decided to continue with the CountVectorizer because it gives courses more related with the given input(at least I thought it so).
 
 # Recommender
 The obtained recommendation engines behave in two different ways:
