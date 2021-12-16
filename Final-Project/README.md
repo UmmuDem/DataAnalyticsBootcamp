@@ -61,6 +61,10 @@ I tried to understand the data better in Python column by column, checked what I
 - More or less, they gave the same courses but I didn't like the ones with the global warming course. So I decided to continue with the CountVectorizer because it gives courses more related with the given input(at least I thought it so).
 
 # Recommender
+The obtained recommendation engines behave in two different ways:
+- In the first case: If user is new in Coursera, user writes keywords in the input panel. It considers those keywords as a corpus and vectorize it, then get the most similar five courses to recommend. I added the link of the courses also, so that user can reach the course immediately.
+- In the second case: If user has already completed a course It looks as follows:
+<img width="1019" alt="Screenshot 2021-12-16 at 22 29 30" src="https://user-images.githubusercontent.com/55329025/146451801-20bd238a-645c-4346-8b1e-a1fd09ecc512.png">
 
 
 # Visualisations
