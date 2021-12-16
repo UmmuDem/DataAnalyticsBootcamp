@@ -378,7 +378,7 @@ def recommender():
                             {}: 
                             {} 
                             by {}.
-                            Here is the link of the course, you can dive into get an idea whether it fits your need 
+                            Here is the link of the course, you can dive in to get an idea whether it fits your need 
                             {}
                             """.format(level,"\u0332".join(course_name.title()),instructor,url))
             
@@ -428,7 +428,7 @@ def recommender():
                             {}: 
                             {} 
                             by {}
-                            Here is the link of the course, you can dive into get an idea whether it fits your need 
+                            Here is the link of the course, you can dive in to get an idea whether it fits your need 
                             {}""".format(level,"\u0332".join(course_name.title()),instructor,url))
                    
             response = 'yes'
