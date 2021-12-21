@@ -70,11 +70,16 @@ The obtained recommendation engines behave in two different ways:
 - I prepared a Tableau dashboard to visualise what I have at the end. You can find it [here](https://github.com/UmmuDem/DataAnalyticsBootcamp/tree/main/Final-Project/Tableau).
 - I have a pie chart to show the course distribution by category to be able to understand sometimes I don't get any good recommendation for a keyword. That is basically because I don't have any similar course for that. 
 - First, we choose a category, the table on the right is filtered out by an action. 
-- Then, we choose a course which we have completed from that table. The table on the right shows the recommended 10 courses. 
+- Then, we choose a course which we have completed from that table. The table on the left shows the recommended 10 courses. 
+- The work cloud is created after selection of the courses that we have completed.
 - I also added the 'about the course' section as a tooltip on the scores. 
+
+As a visual summary you can check my [presentation slides](https://github.com/UmmuDem/DataAnalyticsBootcamp/blob/main/Final-Project/COURSE%20RECOMMENDER%20PROTOTYPE.pptx).
 
 # Future Work
 - As I mentioned above, I don't have enough courses to get better recommendations. Hence, I can collect more courses from different platforms or paid courses in Coursera.
 - I can expand the stopwords set, because the workcoluds I obtained both in python and tableau shows me that I have non-course-content related words, like exercise, practice, quiz, etc. I can analyze more and remove them.
+- I can build a pretty interface for user interaction. That seems difficult for me right now.
+
 
 
