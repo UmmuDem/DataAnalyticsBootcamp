@@ -34,3 +34,23 @@ For this lab, we will gather the data from 3 _csv_ files that are provided in th
   - Correct the values in the column customer lifetime value. They are given as a percent, so multiply them by 100 and change `dtype` to `numerical` type.
   - Check for duplicate rows in the data and remove if any.
   - Filter out the data for customers who have an income of 0 or less.
+
+
+
+
+# Lab | Customer Analysis Round 2
+
+For this lab, we will be using the `marketing_customer_analysis.csv` file that you can find in the `files_for_lab` folder. Check out the `files_for_lab/about.md` to get more information if you are using the Online Excel.
+
+**Note**: For the next labs we will be using the same data file. Please save the code, so that you can re-use it later in the labs following this lab.
+
+### Dealing with the data
+
+1. Show the dataframe shape.
+2. Standardize header names.
+3. Which columns are numerical?
+4. Which columns are categorical?
+5. Check and deal with `NaN` values.
+6. Datetime format - Extract the months from the dataset and store in a separate column. Then filter the data to show only the information for the first quarter , ie. January, February and March. _Hint_: If data from March does not exist, consider only January and February.
+7. BONUS: Put all the previously mentioned data transformations into a function.
+
