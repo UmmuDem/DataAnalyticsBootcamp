@@ -90,3 +90,55 @@ Use the jupyter file from the last lab (Customer Analysis Round 3)
 - For the numerical variables, check the multicollinearity between the features. Please note that we will use the column `total_claim_amount` later as the target variable. 
 - Drop one of the two features that show a high correlation between them (greater than 0.9). Write code for both the correlation matrix and for seaborn heatmap. If there is no pair of features that have a high correlation, then do not drop any features
 
+
+# Lab | Predicting Claim Amount with ML Linear Regression
+
+## Introduction
+
+For this lab, we still keep using the [marketing_customer_analysis.csv file](marketing_customer_analysis.csv) - the US car insurance data set. You should be able to pick up where you left off in the previous rounds of customer behaviour analysis. However this time we will look to apply a linear regression machine learning model 
+
+Review the previous rounds and follow the steps as shown in previous lectures.
+
+## 01 - Problem (case study)
+Familiarise yourself with Data Descriptions and the Goal.
+
+## 02 - Getting Data
+Read the .csv file into python
+
+## 03 - Cleaning/Wrangling/EDA
+Change headers names.
+Deal with NaN values, replace with appropriate method. 
+
+split categorical Features and Numerical Features.
+
+Explore visually both sets of features, to identify next steps.
+
+Look at potential multicollinearity using a correlation matrix or other approach. 
+
+## 04 - Pre-Processing Data
+Dealing with outliers.
+Normalization - ie use chosen scaler to transform selected columns into normal distribution as needed for linear regression model. Propose: MinMax scaler on 'effective_to_date' and standard scaler on numerical columns.
+
+Encoding Categorical Data fields using OHE.
+
+Bring categorical and numerical columns back together using pd.concat.
+
+Define X and y, the y value you are seeking to predict is claim amount.
+
+Splitting into train set and test dataset using random state, eg 80%:20% .
+
+## 05 - Modeling
+Apply linear regression model from sklearn.linear_model.
+
+Fit over your train data and predict against X test. 
+
+## 06 - Model Validation
+You should gather appropriate metrics to evaluate model accuracy over y_test- such as : 
+R2.
+MSE.
+RMSE.
+MAE.
+
+## 07 - Reporting
+Present results inside your notebook with appropriate annotation describing the accuracy of the model and business insight gained.
+
