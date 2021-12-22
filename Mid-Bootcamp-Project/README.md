@@ -22,7 +22,6 @@ We want to be able to predict which client will **accept** credit card offers. ð
 - [Useful Links about This Repo](#Useful-Links-about-This-Repo)
 
 
-Kml
 ## Project Brief
 
 
