@@ -15,11 +15,11 @@ We want to be able to predict which client will **accept** credit card offers. ð
 ## Table of Contents
 
 
-- [Project Brief](https://github.com/thomasmaechler/Case-Study-Classification#Project-Brief)
-- [Data](https://github.com/thomasmaechler/Case-Study-Classification#Data)
-- [Process](https://github.com/thomasmaechler/Case-Study-Classification#Process)
-- [Tools](https://github.com/thomasmaechler/Case-Study-Classification#Tools)
-- [Key Take Aways](https://github.com/thomasmaechler/Case-Study-Classification#Key-Take-Aways)
+- [Project Brief](Project-Brief)
+- [Data](Data)
+- [Process](Process)
+- [Tools](Tools)
+- [Useful Links about This Repo](Useful-Links-about-This-Repo)
 
 
 Kml
@@ -45,9 +45,9 @@ Kml
 ## Process: 
 
 
-- 1 - We tried to visualize how the data looks like in [SQL Workbench](https://github.com/thomasmaechler/Case-Study-Classification/blob/main/SQL/mid_bootcamp_project.sql).
+- 1 - We tried to visualize how the data looks like in [SQL Workbench](https://github.com/UmmuDem/DataAnalyticsBootcamp/blob/main/Mid-Bootcamp-Project/SQL/mid_bootcamp_project.sql).
 
-- 2 - We used [Tableau](https://public.tableau.com/app/profile/thomas.maechler/viz/Case-Study-Classification_16369900928240/Dashboard1) to get some graphs to better understand how the data is set. We noticed that we had the imbalance data problem.
+- 2 - We used [Tableau](https://public.tableau.com/app/profile/ummuhan.demir/viz/Case-Study-Classification/Dashboard1?publish=yes) to get some graphs to better understand how the data is set. We noticed that we had the imbalance data problem.
 
 - 3 - After understanding better how the data looks like, we started to manipulate the data in Python through this process: 
 
@@ -103,9 +103,9 @@ Kml
 ## Tools 
 
 
-- **Database**: [MySQLWorkbench](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/SQL) 
+- **Database**: [MySQLWorkbench](https://github.com/UmmuDem/DataAnalyticsBootcamp/tree/main/Mid-Bootcamp-Project/SQL) 
 
-- **Vizualizations**: [Tableau](https://public.tableau.com/authoring/Case-Study-Classification_16369900928240/Dashboard1#1) / Seaborn / matplotlib
+- **Vizualizations**: [Tableau](https://public.tableau.com/app/profile/ummuhan.demir/viz/Case-Study-Classification/Dashboard1?publish=yes) / Seaborn / matplotlib
 
 - **Code**: Jupyter Notebook
 
@@ -113,12 +113,12 @@ Kml
 
 ## Useful Links about This Repo
 
-You can find the data that we tried to analyze [here](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/Data%20Sources)
+You can find the data that we tried to analyze [here](https://github.com/UmmuDem/DataAnalyticsBootcamp/tree/main/Mid-Bootcamp-Project/Data%20Sources)
 
-[This](https://public.tableau.com/app/profile/thomas.maechler/viz/Case-Study-Classification_16369900928240/Dashboard1) leads you to the Tableau public workbook and the dashboard we created to get some insight about the data.
+[This](https://public.tableau.com/app/profile/ummuhan.demir/viz/Case-Study-Classification/Dashboard1?publish=yes) leads you to the Tableau public workbook and the dashboard we created to get some insight about the data.
 
-[This folder](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/SQL) is dedicated for **SQL** part of this project.
+[This folder](https://github.com/UmmuDem/DataAnalyticsBootcamp/tree/main/Mid-Bootcamp-Project/SQL) is dedicated for **SQL** part of this project.
 
-[Here](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/Jupyter%20Notebooks) we collected our jupyter notebooks, feel free to work on them.
+[Here](https://github.com/UmmuDem/DataAnalyticsBootcamp/tree/main/Mid-Bootcamp-Project/Jupyter%20Notebooks) we collected our jupyter notebooks, feel free to work on them.
 
 Thank you for checking our repo.
