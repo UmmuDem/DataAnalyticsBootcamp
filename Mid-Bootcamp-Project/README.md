@@ -15,11 +15,11 @@ We want to be able to predict which client will **accept** credit card offers. ð
 ## Table of Contents
 
 
-- [Project Brief](Project-Brief)
-- [Data](Data)
-- [Process](Process)
-- [Tools](Tools)
-- [Useful Links about This Repo](Useful-Links-about-This-Repo)
+- [Project Brief](#project-brief)
+- [Data](#data)
+- [Process](#process)
+- [Tools](#tools)
+- [Useful Links about This Repo](#Useful-Links-about-This-Repo)
 
 
 Kml
