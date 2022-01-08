@@ -71,9 +71,10 @@ We want to be able to predict which client will **accept** credit card offers. ð
   - After Concatanating scaled numerical columns and now-numeric categorical columns, we were ready to apply some models.
   - We applied five models on with/without outliers. As it was an imbalanced data, we had to implement sampling methods.
   
-    * Model 2: Logistic Regression + SMOTE
+    * Model 1: Logistic Regression
      
-    <img width="372" alt="Screenshot 2021-11-18 at 16 01 16" src="https://user-images.githubusercontent.com/90766942/142440282-ff7d2440-e8a5-4bb8-9437-cba8ff35424c.png">
+    <img width="376" alt="142440217-e03a01e0-c683-4416-9809-50d41c7290cd" src="https://user-images.githubusercontent.com/55329025/148640983-cc6a4fff-7b68-4a13-9472-cf9ec6b13c79.png">
+
     
      * Model 2: Logistic Regression + SMOTE
      
