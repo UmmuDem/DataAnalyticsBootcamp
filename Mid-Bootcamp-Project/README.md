@@ -73,8 +73,6 @@ We want to be able to predict which client will **accept** credit card offers. ð
     * Model 1: Logistic Regression
     
 <img width="376" alt="Screenshot 2021-11-18 at 15 59 26" src="https://user-images.githubusercontent.com/90766942/142440217-e03a01e0-c683-4416-9809-50d41c7290cd.png">
-
-
     * Model 2: Logistic Regression + SMOTE
     
    <img width="372" alt="Screenshot 2021-11-18 at 16 01 16" src="https://user-images.githubusercontent.com/90766942/142440282-ff7d2440-e8a5-4bb8-9437-cba8ff35424c.png">
