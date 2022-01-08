@@ -79,7 +79,6 @@ We want to be able to predict which client will **accept** credit card offers. ð
     
    <img width="372" alt="Screenshot 2021-11-18 at 16 01 16" src="https://user-images.githubusercontent.com/90766942/142440282-ff7d2440-e8a5-4bb8-9437-cba8ff35424c.png">
 
-    
     * Model 3: Logistic Regression + Tomek Links
     
     <img width="364" alt="Screenshot 2021-11-18 at 16 01 42" src="https://user-images.githubusercontent.com/90766942/142440376-95e08255-7379-4aaa-942e-6f73ff3b45b6.png">
